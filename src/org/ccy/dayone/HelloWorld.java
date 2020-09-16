@@ -1,4 +1,4 @@
-package oneday;
+package org.ccy.dayone;
 
 public class HelloWorld {
 
