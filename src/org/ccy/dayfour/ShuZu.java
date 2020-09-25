@@ -41,6 +41,18 @@ public class ShuZu {
         float scoreRate=(score_new-score_old)/(float)score_old;
         System.out.println(scoreRate);
 
+//遍历数组  foreach
+       /* int[] sz=new int[]{1,3,5,7,9,11};
+        for (int i2:sz) {
+            System.out.println(i2);
+        }*/
+
+        int[] sz1=new int[]{1,3,5,7,9,11};
+        for(int i1=0;i1<sz1.length;i1++){
+            int m=sz1[i1];
+            System.out.println("m="+m);
+
+        }
 
     }
 }

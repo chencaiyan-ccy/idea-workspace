@@ -99,10 +99,21 @@ public class Cycle {
         }
         System.out.println("sum = " + sum);*/
 
-        int[] sz1 = { 1, 2, 3, 4, 5 };
+        /*int[] sz1 = { 1, 2, 3, 4, 5 };
         for (int i=0; i<sz1.length; i++) {
             System.out.println(sz1[i]);
-            i = i + 1;//在循环体内修改循环次数
+            i =
+                    i + 1;//在循环体内修改循环次数
+
+
+        }*/
+        int j=0;
+        for (int i=0;i<100;i++){
+            j=j++;
+
         }
+
+        System.out.println(j);
+
     }
 }
