@@ -12,5 +12,21 @@ public class Method {
         System.out.println(person.getAddress());
         System.out.println(person.getAge());
         System.out.println(person.getName());
+
+        System.out.println(add());//调用方法
+
+    }
+    //定义方法
+    public static int add(int i){
+        int m=7;
+        int n=8;
+        i=m+n;
+        return i;
+    }
+    public static int add(){
+        int m=7;
+        int n=8;
+        int i=m+n;
+        return i;
     }
 }

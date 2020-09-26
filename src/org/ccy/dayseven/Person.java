@@ -25,7 +25,8 @@ public String getName() {
 
     }
 
-    public String getAddress() {
+    public String getAddress()
+    {
         return address;
     }
 
